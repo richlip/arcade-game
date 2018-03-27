@@ -17,6 +17,7 @@ var urlsToCache = [
         '/images/stone-block.png',
 //        'richlip.github.io/css/',
         '/css/frogstyle.css',
+        '/css/bootstrap.min.css'
 //        'js/',
         '/js/app.js',
         '/js/engine.js',
