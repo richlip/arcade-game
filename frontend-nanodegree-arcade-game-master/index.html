@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Effective JavaScript: Frogger</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <script src="js/resources.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/engine.js"></script>
-</body>
+    <head>
+        <meta charset="utf-8">
+            <title>
+                Kind of... Frogman
+            </title>
+              <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+              <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<!--              <link href="manifest.json" rel="manifest"> -->
+              <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+              <link href="css/bootstrap.min.css" rel="stylesheet">
+              <meta name="viewport" content="width=device-width,initial-scale=1">
+              <link href="css/frogstyle.css" rel="stylesheet">
+    </head>
+    <body>
+    	<div class="container">
+    		<header id="header">
+  <div class="container-fluid">
+            <div class="row">
+                <div aria-label="Richard Lipski's Frogman" class="col-xs-11 col-sm-11 col-md-11 text-left text-uppercase" tabindex="0">
+                    <h1 class="title-super-full text-thin">
+                        richard lipski
+                    </h1>
+                    <h1 class="title-super-short text-thin">
+                        rich
+                    </h1>
+                    <h4>
+                        Frogman
+                    </h4>
+                </div>
+            </div>
+        </div>
+     	    </header>
+                <div id="main">
+         		    <aside id="info-bar">
+                    	<div id="game-instructions">
+                        	<h3>How to Play</h3>
+                        	<p>Use the arrow keys to move Frogman across the board. To win you need to reach the water, avoiding the bugs...</p>
+                    	</div>
+                	</aside>
+                		<div id="game">
+                     		<script src="js/resources.js"></script>
+                    	    <script src="js/app.js"></script>
+                    	    <script src="js/engine.js"></script>
+               			</div>
+           		</div>
+         </div>  
+             <script>
+            if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+            navigator.serviceWorker.register('sw.js').then(function (registration) {
+                // Registration was successful
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }, function (err) {
+                // registration failed :(
+                console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+    }
+        </script> 		
+    </body>
 </html>

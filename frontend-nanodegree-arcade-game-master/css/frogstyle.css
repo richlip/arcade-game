@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px; 
+  color: #2d3c49;
+  font-weight: 300;
+  max-width: 960px;
+  margin: auto; }
+
+
+#page-title {
+    width: 60%;
+    text-align: left;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#game {
+    padding-left: 150px;
+    padding-top: 0;
+    width: 60%;
+}
+
+#info-bar {
+    width: auto;
+    background-color: #ddd;
+    margin-top: 10px;
+    width: 40%;
+}
+
+
+#game-instructions {
+    padding-top: 0px;
+    padding: 30px;
+    font-size: 20px;
+}
+
+#project-description {
+    padding-bottom: 0px;
+}
+
+hr {
+  border: none;
+  height: 3px;
+  background-color: #7d97ad; }
+
+h2, h3, h4 {
+  font-weight: 800; }
+
+.row {
+  font-weight: 300; }
+
+.title-super-full {
+  font-size: 60px; }
+
+.title-super-short {
+  font-size: 60px; }
+
+.title-logo {
+  width: 110px;
+  margin-top: 20px; }
+
+.text-muted {
+  color: #7d97ad;
+  padding: 10px; }
+
+.text-thin {
+  font-weight: 100; }
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.project, .pixelart {
+  width: 33%;
+  padding: 0px 15px 0px 15px; }
+
+@media screen and (max-width: 960px) {
+  body {
+    margin: auto; }
+  .textblock {
+    margin: 0px 10px 0px 10px; }
+  img {
+    max-width: 960px; }
+  .project, .pixelart {
+    width: 50%;
+    padding: 10px; }
+  .title-logo {
+    display: none; } }
+
+@media screen and (min-width: 451px) {
+  .title-super-full {
+    display: inline-block; }
+  .textblock {
+    margin: 0px 10px 0px 10px; }
+  .title-super-short {
+    display: none; } }
+
+@media screen and (max-width: 450px) {
+  .project {
+    width: 100%;
+    padding: 10px; }
+  aside {
+    display: none; }
+  .textblock {
+    margin: 0px 10px 0px 10px; }
+  .title-super-full {
+    display: none; }
+  .title-super-short {
+    display: inline-block; }
+  .pixelart {
+    display: none; } }
+
+ @media all and (display-mode: standalone) {
+  body {
+    background-color: ivory; 
+  }
+}
