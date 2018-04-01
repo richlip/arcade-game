@@ -77,7 +77,7 @@ Player.prototype.update = function(dt) {
 
     allEnemies.forEach(function(enemy) {
     if(self.x >= enemy.x - 25 && self.x <= enemy.x + 25) {
-        if(self.y >= enemy.y - 25 && self.y <= enemy.y + 25) {
+        if(self.y >= enemy.y - 25 && self.y <= enemy.y + 75) {
             self.reset();
             }
         }
