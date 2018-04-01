@@ -6,6 +6,7 @@ This is my interpretation of the classic frogger for the fewd nanodegree.
 # Whats inside?
 
 ## The game
+How to play? Use the arrow keys for up, down, left and right. Avoid any contact with the bugs, bugs are bad...
 
 ## a serviceworker for offline madness
 
